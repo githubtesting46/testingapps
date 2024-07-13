@@ -30,6 +30,8 @@ st.title("Your Cisco Earnings Statement Copilot")
 
 # Load the API Key securely
 
+import os
+
 OPENAI_API_KEY = yaml.safe_load(open('credentials.yml'))['openai']
 
 
